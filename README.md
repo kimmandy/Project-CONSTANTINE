@@ -3,11 +3,10 @@
 # 🤖 협동로봇 스마트 생산 시스템 구축 프로젝트
 
 경기인력개발원 [스마트로봇엔지니어] 과정 중 3조가 진행한 협동로봇 기반 스마트 생산 시스템 프로젝트입니다.  
-**단순 반복 작업은 로봇에게, 핵심 역량은 작업자에게!**
+**단순 반복 작업은 로봇에게, 핵심 역량은 작업자에게!**  
 
-> 📅 기간: 2025년 6월  
-> 👥 팀원: 성화준(조장), 김경운, 김명지(pmhyang69@naver.com), 유현우, 정선우, 정진효
-
+> 📅 기간: 2025년 5월 28 ~ 6월 27일  
+> 👥 팀원: 성**(조장), 김**, 김명지(pmhyang69@naver.com), 유**, 정**, 정**  
 ---
 
 ## 🧠 프로젝트 개요
@@ -23,7 +22,7 @@
 
 ## 📍 공정 레이아웃
 <p align="center">
-  <img src="./images/Overall_process.png" width="600"/>
+  <img src="./images/Overall_process.png" width="800"/>
 </p>
 
 ---
@@ -34,9 +33,9 @@
 
 | 공정 | 설명 |
 |------|------|
-| **Pick & Place** | 근접센서가 부품을 감지하면 로봇이 이송 위치로 부품을 이동합니다. 간단한 조립 및 공급에 최적화된 공정입니다. |
+| **Pick & Place** | 로봇이 제품을 집고 센싱을 합니다. 금속 & 근접 센서가 부품을 감지하면 로봇이 가공단계로 부품을 이동합니다. |
 | **Drilling & Tapping** | 반사센서를 이용해 부품이 정위치에 놓였는지 감지 후, 드릴링 머신으로 정밀하게 구멍을 가공합니다. |
-| **Sorting** | QR 스캐너로 제품 정보를 인식하여 소재별로 구분합니다. 로봇은 해당 정보를 기반으로 분류 위치에 적절히 이동시킵니다. |
+| **Sorting** | QR 스캐너로 제품 정보를 인식하여 정보별로 구분합니다. |
 
 ---
 
@@ -50,12 +49,12 @@
 
 > 작업순서
 <p align="center">
-  <img src="./images/pickplace_steps.png" width="500" style="margin-right:10px;"/>
+  <img src="./images/pickplace_steps.png" width="700" style="margin-right:10px;"/>
 </p>
 
 > 공정컨셉
 <p align="center">
-  <img src="./images/pickplace_concept.png" width="500" style="margin-right:10px;"/>
+  <img src="./images/pickplace_concept.png" width="700" style="margin-right:10px;"/>
 </p>
 
 ---
@@ -68,12 +67,12 @@
 
 > 작업순서
 <p align="center">
-  <img src="./images/drilling_steps.png" width="500" style="margin-right:10px;"/>
+  <img src="./images/drilling_steps.png" width="700" style="margin-right:10px;"/>
 </p>
 
 > 공정컨셉
 <p align="center">
-  <img src="./images/drilling_concept.png" width="500" style="margin-right:10px;"/>
+  <img src="./images/drilling_concept.png" width="700" style="margin-right:10px;"/>
 </p>
 
 ---
@@ -86,12 +85,12 @@
 
 > 작업순서
 <p align="center">
-  <img src="./images/sorting_steps.png" width="500" style="margin-right:10px;"/>
+  <img src="./images/sorting_steps.png" width="700" style="margin-right:10px;"/>
 </p>
 
 > 공정컨셉
 <p align="center">
-  <img src="./images/sorting_concept.png" width="500" style="margin-right:10px;"/>
+  <img src="./images/sorting_concept.png" width="700" style="margin-right:10px;"/>
 </p>
 
 ---
@@ -162,18 +161,6 @@
 
 ---
 
-## 🧑‍🤝‍🧑 팀원별 역할 및 소감
-
-| 이름 | 역할 | 소감 |
-|------|------|------|
-| 성화준 | 조장, 일정 관리, 티칭 | 자유롭고 유쾌한 소통으로 협업을 이끌고 즐겁게 프로젝트 완수 |
-| 김경운   | PLC 래더 설계 | 실제 장비 활용 경험과 래더 로직 작성 능력 향상 |
-| 김명지   | 티칭, 디버깅 | 	문제의 근본 원인을 파악하는 중요성을 깨닫고 협업 역량 강화 |
-| 유현우   | EPLAN 설계, 센서 회로 | 다양한 전자 부품과 통신 기술을 실물에 적용, 큰 성장의 기회 |
-| 정선우   | 배선, PLC 래더 설계 | 전체 자동화 공정 이해도 향상, 협업을 통한 실무 경험 축적 |
-| 정진효   | HMI 및 전장 구성 | 사용자 중심 설계와 꼼꼼한 작업의 중요성을 체득하며 책임감 고양 |
-
----
 
 ## 📁 관련 자료
 
