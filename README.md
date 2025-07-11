@@ -6,7 +6,7 @@
 **단순 반복 작업은 로봇에게, 핵심 역량은 작업자에게!**
 
 > 📅 기간: 2025년 6월  
-> 👥 팀원: 성화준(조장), 김경운, 김명지, 유현우, 정선우, 정진효
+> 👥 팀원: 성화준(조장), 김경운, 김명지(pmhyang69@naver.com), 유현우, 정선우, 정진효
 
 ---
 
@@ -18,9 +18,12 @@
   - 작업자 부담 경감
   - 공정 유연성 확보
   - 생산성 향상 및 자동화 효율성 증가
+ 
+---
 
+## 📍 공정 레이아웃
 <p align="center">
-  <img src="./images/process_concept.png" width="600"/>
+  <img src="./images/Overall_process.png" width="600"/>
 </p>
 
 ---
@@ -35,15 +38,53 @@
 | **Drilling & Tapping** | 반사센서를 이용해 부품이 정위치에 놓였는지 감지 후, 드릴링 머신으로 정밀하게 구멍을 가공합니다. |
 | **Sorting** | QR 스캐너로 제품 정보를 인식하여 소재별로 구분합니다. 로봇은 해당 정보를 기반으로 분류 위치에 적절히 이동시킵니다. |
 
-#### 📸 공정 사진
+---
+
+### 🧪 공정별 실습 & 시연
+
+#### 🔹 Pick & Place
 
 <p align="center">
-  <img src="./images/pickplace.jpg" width="300"/>  
-  <img src="./images/drilling.jpg" width="300"/>  
-  <img src="./images/sorting.jpg" width="300"/>
+  <img src="./images/pickplace_demo.gif" width="500" style="margin-right:10px;"/>
+</p>
+
+> 작업순서
+<p align="center">
+  <img src="./images/Overall_process.png" width="500" style="margin-right:10px;"/>
+</p>
+
+> 공정컨셉
+<p align="center">
+  <img src="./images/Overall_process.png" width="500" style="margin-right:10px;"/>
 </p>
 
 ---
+
+#### 🔹 Drilling & Tapping
+
+<p align="center">
+  <img src="./images/drilling_demo.gif" width="300" style="margin-right:10px;"/>
+  <img src="./images/drilling_photo.jpg" width="300"/>
+</p>
+
+> 왼쪽: 드릴 가공 동작 GIF  
+> 오른쪽: 작업자가 드릴 머신을 설치한 모습
+
+---
+
+#### 🔹 Sorting
+
+<p align="center">
+  <img src="./images/sorting_demo.gif" width="300" style="margin-right:10px;"/>
+  <img src="./images/sorting_photo.jpg" width="300"/>
+</p>
+
+> 왼쪽: QR 코드 인식 및 분류 시연  
+> 오른쪽: 실습 환경에서 로봇이 제품을 분류하는 장면
+
+---
+
+
 
 ### 🎛️ HMI 화면 구성
 
