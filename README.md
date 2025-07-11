@@ -50,12 +50,12 @@
 
 > 작업순서
 <p align="center">
-  <img src="./images/Overall_process.png" width="500" style="margin-right:10px;"/>
+  <img src="./images/pickplace_steps.png" width="500" style="margin-right:10px;"/>
 </p>
 
 > 공정컨셉
 <p align="center">
-  <img src="./images/Overall_process.png" width="500" style="margin-right:10px;"/>
+  <img src="./images/pickplace_concept.png" width="500" style="margin-right:10px;"/>
 </p>
 
 ---
@@ -63,24 +63,36 @@
 #### 🔹 Drilling & Tapping
 
 <p align="center">
-  <img src="./images/drilling_demo.gif" width="300" style="margin-right:10px;"/>
-  <img src="./images/drilling_photo.jpg" width="300"/>
+  <img src="./images/pickplace_demo.gif" width="500" style="margin-right:10px;"/>
 </p>
 
-> 왼쪽: 드릴 가공 동작 GIF  
-> 오른쪽: 작업자가 드릴 머신을 설치한 모습
+> 작업순서
+<p align="center">
+  <img src="./images/drilling_steps.png" width="500" style="margin-right:10px;"/>
+</p>
+
+> 공정컨셉
+<p align="center">
+  <img src="./images/drilling_concept.png" width="500" style="margin-right:10px;"/>
+</p>
 
 ---
 
 #### 🔹 Sorting
 
 <p align="center">
-  <img src="./images/sorting_demo.gif" width="300" style="margin-right:10px;"/>
-  <img src="./images/sorting_photo.jpg" width="300"/>
+  <img src="./images/pickplace_demo.gif" width="500" style="margin-right:10px;"/>
 </p>
 
-> 왼쪽: QR 코드 인식 및 분류 시연  
-> 오른쪽: 실습 환경에서 로봇이 제품을 분류하는 장면
+> 작업순서
+<p align="center">
+  <img src="./images/sorting_steps.png" width="500" style="margin-right:10px;"/>
+</p>
+
+> 공정컨셉
+<p align="center">
+  <img src="./images/sorting_concept.png" width="500" style="margin-right:10px;"/>
+</p>
 
 ---
 
@@ -91,8 +103,10 @@
 - 공정 선택, 수동 조작, 설정, 알람, 통계 메뉴 등으로 구성
 - 직관적인 아이콘 기반 UI와 실시간 센서 I/O 모니터링 제공
 <p align="center">
-  <img src="./images/hmi_overview.png" width="600"/>
+  <img src="./images/sorting_concept.png" width="45%"/>
+  <img src="./images/sorting_concept.png" width="45%"/>
 </p>
+
 
 ---
 
