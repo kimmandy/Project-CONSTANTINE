@@ -21,7 +21,7 @@
 ---
 
 ## 📍 공정 레이아웃
-<p align="center">
+<p align="">
   <img src="./images/Overall_process.png" width="800"/>
 </p>
 
@@ -43,17 +43,20 @@
 
 #### 🔹 Pick & Place
 
-<p align="center">
+<p align="">
   <img src="./images/pickplace_demo.gif" width="500" style="margin-right:10px;"/>
 </p>
 
 > 작업순서
-<p align="center">
+<p align="">
   <img src="./images/pickplace_steps.png" width="700" style="margin-right:10px;"/>
-</p>
+</p>  
+
+- 공정 선택, 수동 조작, 설정, 알람, 통계 메뉴 등으로 구성
+- 직관적인 아이콘 기반 UI와 실시간 센서 I/O 모니터링 제공
 
 > 공정컨셉
-<p align="center">
+<p align="">
   <img src="./images/pickplace_concept.png" width="700" style="margin-right:10px;"/>
 </p>
 
@@ -61,17 +64,17 @@
 
 #### 🔹 Drilling & Tapping
 
-<p align="center">
+<p align="">
   <img src="./images/pickplace_demo.gif" width="500" style="margin-right:10px;"/>
 </p>
 
 > 작업순서
-<p align="center">
+<p align="">
   <img src="./images/drilling_steps.png" width="700" style="margin-right:10px;"/>
 </p>
 
 > 공정컨셉
-<p align="center">
+<p align="">
   <img src="./images/drilling_concept.png" width="700" style="margin-right:10px;"/>
 </p>
 
@@ -79,19 +82,18 @@
 
 #### 🔹 Sorting
 
-<p align="center">
+<p align="">
   <img src="./images/pickplace_demo.gif" width="500" style="margin-right:10px;"/>
 </p>
 
 > 작업순서
-<p align="center">
+<p align="">
   <img src="./images/sorting_steps.png" width="700" style="margin-right:10px;"/>
 </p>
 
 > 공정컨셉
-<p align="center">
-  <img src="./images/sorting_concept.png" width="700" style="margin-right:10px;"/>
-</p>
+<img src="./images/sorting_concept.png" width="700" style="margin-right:10px;"/>
+
 
 ---
 
@@ -123,11 +125,29 @@
 
 ## 🛠️ 트러블슈팅 사례
 
-| 문제 | 원인 | 해결 방법 | 사진 |
-|------|------|-----------|-------|
-| 로봇 관절이 비정상적으로 회전 | 비효율적인 티칭 경로 | 관절 1, 5 위주로 재티칭 | ![](./images/trouble_pose.jpg) |
-| 공압실린더가 작동 안 됨 | 3선식 오토스위치 노후 | 2선식 스위치로 교체 후 배선 수정 | ![](./images/trouble_switch.jpg) |
-| AUBO I/O 출력 불안정 | SMPS 출력 전압 강하 | 릴레이 및 커패시터 추가하여 회로 안정화 | ![](./images/trouble_voltage.jpg) |
+| 문제 | 원인 | 해결 방법 |
+|------|------|-----------|
+| 로봇 관절이 비정상적으로 회전 | 비효율적인 티칭 경로 | 관절 1, 5 위주로 재티칭 |
+| 공압실린더가 작동 안 됨 | 3선식 오토스위치 노후 | 2선식 스위치로 교체 후 배선 수정 |
+| AUBO I/O 출력 불안정 | SMPS 출력 전압 강하 | 릴레이 및 커패시터 추가하여 회로 안정화 |
+
+### 📸 트러블슈팅 사진
+
+#### 🔹 로봇 관절 회전 이상
+<table> <tr> <td align="center"><img src="./images/trouble_pose_1.jpg" width="250"/></td> <td align="center"><img src="./images/trouble_pose_2.jpg" width="250"/></td> <td align="center"><img src="./images/trouble_pose_3.jpg" width="250"/></td> </tr> <tr> <td align="center">문제 발생 시 동작</td> <td align="center">해결과정</td> <td align="center">재티칭 후 정상 동작</td> </tr> </table>
+
+#### 🔹 공압실린더 문제
+<p align="center">
+  <img src="./images/trouble_switch_1.jpg" width="300"/>
+  <img src="./images/trouble_switch_2.jpg" width="300"/>
+</p>
+
+#### 🔹 AUBO I/O 출력 불안정
+<p align="center">
+  <img src="./images/trouble_voltage_1.jpg" width="300"/>
+  <img src="./images/trouble_voltage_2.jpg" width="300"/>
+</p>
+
 
 ---
 
