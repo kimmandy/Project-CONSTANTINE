@@ -103,8 +103,8 @@
 - 공정 선택, 수동 조작, 설정, 알람, 통계 메뉴 등으로 구성
 - 직관적인 아이콘 기반 UI와 실시간 센서 I/O 모니터링 제공
 <p align="center">
-  <img src="./images/sorting_concept.png" width="45%"/>
-  <img src="./images/sorting_concept.png" width="45%"/>
+  <img src="./images/hmi_overview.png" width="45%"/>
+  <img src="./images/hmi_settings.png" width="45%"/>
 </p>
 
 
@@ -116,7 +116,8 @@
 - 입력/출력 단자 설계
 - CC-Link를 통한 각 공정 간 통신
 <p align="center">
-  <img src="./images/eplan_wiring.png" width="500"/>
+  <img src="./images/enclosure_overview.png" width="45%"/>
+  <img src="./images/electrical_overview.png" width="45%"/>
 </p>
 
 ---
