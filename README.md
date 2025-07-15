@@ -86,7 +86,7 @@
 #### 🔹 Sorting
 
 <p align="">
-  <img src="./images/sorting_demo.gif" width="500">
+  <img src="./images/sorting_demo.gif" width="600">
 </p>
 
 > 작업순서
