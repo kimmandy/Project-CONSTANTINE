@@ -1,8 +1,6 @@
-#수정중
-
 # 🤖 협동로봇 스마트 생산 시스템 구축 프로젝트
 
-경기인력개발원 [스마트로봇엔지니어] 과정 중 3조가 진행한 협동로봇 기반 스마트 생산 시스템 프로젝트입니다.  
+경기인력개발원 [스마트로봇엔지니어] 과정 중 진행한 협동로봇 기반 스마트 생산 시스템 프로젝트입니다.  
 **단순 반복 작업은 로봇에게, 핵심 역량은 작업자에게!**  
 
 > 📅 기간: 2025년 5월 28 ~ 6월 27일  
@@ -49,7 +47,7 @@
 #### 🔹 Pick & Place
 
 <p align="">
-  <img src="./images/pickplace_demo.gif" width="500" style="margin-right:10px;"/>
+  <img src="./images/pickplace_demo.gif" width="400">
 </p>
 
 > 작업순서
@@ -70,7 +68,7 @@
 #### 🔹 Drilling & Tapping
 
 <p align="">
-  <img src="./images/pickplace_demo.gif" width="500" style="margin-right:10px;"/>
+  <img src="./images/drilling_demo.gif" width="300">
 </p>
 
 > 작업순서
@@ -88,7 +86,7 @@
 #### 🔹 Sorting
 
 <p align="">
-  <img src="./images/pickplace_demo.gif" width="500" style="margin-right:10px;"/>
+  <img src="./images/sorting_demo.gif" width="500">
 </p>
 
 > 작업순서
@@ -132,24 +130,37 @@
 
 | 문제 | 원인 | 해결 방법 |
 |------|------|-----------|
-| 로봇 관절이 비정상적으로 회전 | 비효율적인 티칭 경로 | 관절 1, 5 위주로 재티칭 |
-| 공압실린더가 작동 안 됨 | 3선식 오토스위치 노후 | 2선식 스위치로 교체 후 배선 수정 |
-| AUBO I/O 출력 불안정 | SMPS 출력 전압 강하 | 릴레이 및 커패시터 추가하여 회로 안정화 |
+| 로봇 동작에 불필요한 동선</br> 가공물 그립 불량 | 각 웨이포인트별 불필요한 관절 움직임</br> 그리퍼 구조 설계 문제 | 관절 1, 5 위주로 재티칭</br>지면과 30도 각도를 형성하는 그리퍼 설계 (그립부 고무패드 부착) |
+| 실린더가 앞동작 완료 전 작동</br> 오토스위치 출력 불량 | 앞동작 조건과 무관하게 실린더 작동하는 제어 래더도</br> 3선식 오토스위치 노후 | 실린더 동작 전 인터락 조건 걸어줌</br>2선식 스위치로 교체 후 배선 수정 |
+| AUBO I/O 출력 불안정 | SMPS 직결 방식의 전압 강하 | 릴레이 및 커패시터 추가하여 회로 안정화 |
 
-### 📸 트러블슈팅 사진
+### 📸 트러블슈팅 사진  
 
-#### 🔹 로봇 관절 회전 이상
-<table> <tr> <td align="center"><img src="./images/trouble_pose_1.jpg" width="250"/></td> <td align="center"><img src="./images/trouble_pose_2.jpg" width="250"/></td> <td align="center"><img src="./images/trouble_pose_3.jpg" width="250"/></td> </tr> <tr> <td align="center">문제 발생 시 동작</td> <td align="center">해결과정</td> <td align="center">재티칭 후 정상 동작</td> </tr> </table>
+#### 🔹 로봇 관절 회전 이상  
+
+#### 🟥 문제 발생 시 동작
+<img src="./images/trouble_pose1.gif" width="300"/>
+
+---
+
+#### 🛠 해결 과정
+<img src="./images/trouble_pose_2.png" width="600"/>
+
+---
+
+#### ✅ 재티칭 후 정상 동작
+<img src="./images/trouble_pose_3.gif" width="600"/>
+
 
 #### 🔹 공압실린더 문제
 <p align="center">
-  <img src="./images/trouble_switch_1.jpg" width="300"/>
-  <img src="./images/trouble_switch_2.jpg" width="300"/>
+  <img src="./images/trouble_switch_1.png" width="450"/>
+  <img src="./images/trouble_switch_2.png" width="450"/>
 </p>
 
 #### 🔹 AUBO I/O 출력 불안정
 <p align="center">
-  <img src="./images/trouble_voltage_1.jpg" width="300"/>
+  <img src="./images/trouble_voltage_1.png" width="500"/>
 </p>
 
 
@@ -159,15 +170,16 @@
 
 ### 금속 부품 공정
 
-<p align="center">
-  <img src="./images/metal_demo.gif" width="500"/>
+<p align="">
+  <img src="./images/metal_demo.gif" width="700"/>
 </p>
 
-### 플라스틱 부품 공정
+### 플라스틱 부품 공정 (전체공정)
+<a href="https://youtu.be/XMlOFr0Cex8" target="_blank">
+  <img src="https://img.youtube.com/vi/XMlOFr0Cex8/0.jpg" width="600"/>
+</a>
 
-<p align="center">
-  <img src="./images/plastic_demo.gif" width="500"/>
-</p>
+<p><i>▲ 클릭하면 유튜브에서 전체 시연 영상 확인 가능</i></p>
 
 ---
 
@@ -188,15 +200,16 @@
 
 ## 📁 관련 자료
 
-- [`📄 프로젝트 결과 PDF`](./프로젝트명_콘스탄틴.pdf)
-- 전체 영상: 별도 드라이브 또는 링크 제공 예정 (GIF 일부 포함)
+- ⬇️ [PPT 다운로드](https://drive.google.com/file/d/10VLDqtUj8IR8bCqBM0PCQGoHin-mNEku/view?usp=drive_link)  
+- ⬇️ [PDF 다운로드](https://drive.google.com/file/d/1W1ioYrZPGSz_rGT-2M3yWMqzUfSnEWWX/view?usp=drive_link)
 
 ---
 
 ## 🔚 마무리
 
 > 이 프로젝트를 통해 협동로봇의 실무 적용 가능성과 자동화 설계 전 과정을 체험할 수 있었습니다.  
-> 로봇 제어, 센서 회로, 전장 설계, 티칭, HMI까지 연계된 경험은 현장 중심의 성장 기회였습니다.
+> 로봇 제어, 센서 회로, 전장 설계, 티칭, HMI까지 연계된 경험은 현장 중심의 성장 기회였습니다.  
+> 감사합니다.
 
 ---
 
