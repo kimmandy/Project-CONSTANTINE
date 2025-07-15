@@ -17,7 +17,12 @@
   - 작업자 부담 경감
   - 공정 유연성 확보
   - 생산성 향상 및 자동화 효율성 증가
- 
+
+>예시
+<p align="">
+  <img src="./images/pickplace_ex.gif" width="600" style="margin-right:10px;"/>
+</p>
+
 ---
 
 ## 📍 공정 레이아웃
@@ -145,7 +150,6 @@
 #### 🔹 AUBO I/O 출력 불안정
 <p align="center">
   <img src="./images/trouble_voltage_1.jpg" width="300"/>
-  <img src="./images/trouble_voltage_2.jpg" width="300"/>
 </p>
 
 
